@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: 'Roboto Mono', monospace;
+}
+.card {
+    border: 1px solid gray;  
+    border-radius: 3px;
+    margin: 0.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 4px 0px gray;
+    /* padding-top: 2em; */
+
+}
+
+img {
+    width: 80%;
+    /* height: 100px;   */
+}
+
+.remove {
+    border-radius: 0px 0px 0px 20px;
+    border: 1px solid gray;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    color: gray;
+    position: relative;
+    top: 0;
+    left: 0%;
+
+}
+
+.hidden {
+    
+    border: 1px solid white;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    color: white;
+
+}
+
